@@ -83,6 +83,11 @@ padding: 16px 32px;
 .navbar-brand img {
 width: 56px;
 height: 56px;
+transition: transform 500ms;
+}
+
+.navbar-brand img:hover{
+    transform: scale(0.75);
 }
 
 .nav-link {
