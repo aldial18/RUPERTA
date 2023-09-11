@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Quicksand:wght@400;700&display=swap');
 
+$blue400: #68949D;
+$blue500: #427985;
+$blue600: #3C6E79;
+$nude-900:#473F34;
+$nude-700: #796A57;
+
 * {
 padding: 0;
 margin: 0;
@@ -80,7 +86,7 @@ height: 56px;
 }
 
 .nav-link {
-color: #427985 !important;
+color: $blue500 !important;
 font-size: 20px;
 }
 
@@ -438,7 +444,7 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 4px;
-background: #427985;
+background: $blue500;
 color: #F2EFEC;
 font-family: Manrope;
 font-size: 12px;
@@ -454,7 +460,7 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 4px;
-background: #68949D;
+background: $blue400;
 color: #F2EFEC;
 font-family: Manrope;
 font-size: 12px;
@@ -470,7 +476,7 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 4px;
-background: #3C6E79;
+background: $blue600;
 color: #F2EFEC;
 font-family: Manrope;
 font-size: 12px;
@@ -535,7 +541,7 @@ width: 100%;
 
 footer a{
 text-decoration: none;
-color: #427985;
+color: $blue500;
 font-family: Quicksand;
 font-size: 16px;
 font-style: normal;
@@ -547,7 +553,7 @@ line-height: 24px;
 display: flex;
 align-items: center;
 gap: 16px;
-color: #427985;
+color: $blue500;
 }
 
 /*links*/
@@ -556,7 +562,7 @@ a {
 text-decoration: none;
 
 &:link {
-color: #427985;
+color: $blue500;
 font-family: Quicksand;
 font-style: normal;
 font-weight: 700;
@@ -570,14 +576,14 @@ font-weight: 700;
 }
 
 &:hover {
-color: #68949D;
+color: $blue400;
 font-family: Quicksand;
 font-style: normal;
 font-weight: 700;
 }
 
 &:active {
-color: #3C6E79;
+color: $blue600;
 font-family: Quicksand;
 font-style: normal;
 font-weight: 700;
@@ -726,7 +732,7 @@ align-items: center;
 text-align: center;
 gap: 10px;
 border-radius: 48px;
-border: 1px solid #473F34;
+border: 1px solid $nude-900;
 }
 
 .natalia {
