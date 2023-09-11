@@ -733,8 +733,7 @@ span {
 .tarjeta-imagen > img {
   width: 200px;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   padding: 24px;
 }
 
@@ -1045,4 +1044,6 @@ span {
   grid-column: 3/4;
   grid-row: 4/5;
   background-image: url(imagenes/paisaje-imagen6.jpg);
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
