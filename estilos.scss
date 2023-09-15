@@ -239,6 +239,8 @@ min-width: 100%;
 }
 }
 
+/*media query tablet*/
+
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 h1 {
 color: #674F39;
@@ -824,21 +826,16 @@ margin-bottom: 64px;
 /*diseño de hogares*/
 
 .hogar-contenedor {
-width: 100%;
-height: 85vh;
-display: flex;
-flex-direction: row;
 margin-bottom: 64px;
 }
-
+    
 .hogar-imagen {
 background-image: url(imagenes/hogar-principal.jpg);
 background-size: cover;
 background-position: center;
-min-width: 55%;
 height: 85vh;
 }
-
+    
 .hogar-texto {
 display: flex;
 flex-direction: column;
@@ -849,10 +846,6 @@ padding: 0px 74px;
 /*diseño de oficinas*/
 
 .oficinas-contenedor {
-width: 100%;
-height: 85vh;
-display: flex;
-flex-direction: row;
 margin-bottom: 64px;
 }
 
@@ -860,7 +853,6 @@ margin-bottom: 64px;
 background-image: url(imagenes/oficina-principal.jpg);
 background-size: cover;
 background-position: center;
-min-width: 55%;
 height: 85vh;
 }
 
@@ -874,10 +866,6 @@ padding: 0px 74px;
 /*diseño de comercios*/
 
 .comercios-contenedor {
-width: 100%;
-height: 85vh;
-display: flex;
-flex-direction: row;
 margin-bottom: 64px;
 }
 
@@ -885,7 +873,6 @@ margin-bottom: 64px;
 background-image: url(imagenes/comercio-principal.jpg);
 background-size: cover;
 background-position: center;
-min-width: 55%;
 height: 85vh;
 }
 
@@ -899,10 +886,6 @@ padding: 0px 74px;
 /*paisajismo*/
 
 .paisajismo-contenedor {
-width: 100%;
-height: 85vh;
-display: flex;
-flex-direction: row;
 margin-bottom: 64px;
 }
 
@@ -910,7 +893,6 @@ margin-bottom: 64px;
 background-image: url(imagenes/paisajismo-principal.jpg);
 background-size: cover;
 background-position: center;
-min-width: 55%;
 height: 85vh;
 }
 
