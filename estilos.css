@@ -96,6 +96,45 @@ header {
   padding: 16px !important;
 }
 
+input:enabled {
+  border: #796A57 solid 1px;
+  border-radius: 4px;
+}
+input:hover {
+  border: #427985 solid 2px;
+  border-radius: 4px;
+}
+input:active {
+  border: #3C6E79 solid 2px;
+  border-radius: 4px;
+}
+
+select:enabled {
+  border: #796A57 solid 1px;
+  border-radius: 4px;
+}
+select:hover {
+  border: #427985 solid 2px;
+  border-radius: 4px;
+}
+select:active {
+  border: #3C6E79 solid 2px;
+  border-radius: 4px;
+}
+
+textarea:enabled {
+  border: #796A57 solid 1px;
+  border-radius: 4px;
+}
+textarea:hover {
+  border: #427985 solid 2px;
+  border-radius: 4px;
+}
+textarea:active {
+  border: #3C6E79 solid 2px;
+  border-radius: 4px;
+}
+
 /*media query mobile*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   #carouselExampleIndicators {

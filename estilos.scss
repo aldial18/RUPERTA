@@ -105,13 +105,63 @@ height: 56px;
 padding: 16px !important;
 }
 
+input{
+&:enabled{
+border: $nude-700 solid 1px;
+border-radius: 4px;
+}
+
+&:hover{
+border: $blue500 solid 2px;
+border-radius: 4px;
+}
+
+&:active{
+border: $blue600 solid 2px;
+border-radius: 4px;
+}
+}
+
+select{
+&:enabled{
+border: $nude-700 solid 1px;
+border-radius: 4px;
+}
+
+&:hover{
+border: $blue500 solid 2px;
+border-radius: 4px;
+}
+
+&:active{
+border: $blue600 solid 2px;
+border-radius: 4px;
+}
+}
+
+textarea{
+&:enabled{
+border: $nude-700 solid 1px;
+border-radius: 4px;
+}
+
+&:hover{
+border: $blue500 solid 2px;
+border-radius: 4px;
+}
+
+&:active{
+border: $blue600 solid 2px;
+border-radius: 4px;
+}
+}
 
 /*media query mobile*/
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
 #carouselExampleIndicators{
-    display: flex;
+display: flex;
 }
 
 h1 {
