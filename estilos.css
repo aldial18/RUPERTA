@@ -401,18 +401,6 @@ textarea:active {
   .tarjeta-texto-imagen {
     min-width: 100%;
   }
-  .galeria-hogar {
-    display: none !important;
-  }
-  .galeria-oficinas {
-    display: none !important;
-  }
-  .galeria-comercio {
-    display: none !important;
-  }
-  .galeria-paisajismo {
-    display: none !important;
-  }
 }
 /*clases de index*/
 .rounded {
