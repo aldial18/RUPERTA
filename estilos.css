@@ -333,6 +333,9 @@ textarea:active {
 }
 /*media query tablet*/
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  #carouselExampleIndicators {
+    display: flex;
+  }
   h1 {
     color: #674F39;
     font-family: Quicksand;
